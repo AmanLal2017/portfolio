@@ -262,27 +262,26 @@ span {
   transform: scale(1.03);
 }
 
-.project-box {
+.project-card {
   background: white;
-  height: 300px;
+  height: 600px;
+  max-width: 500px;
   border-radius: 3rem;
   border: 5px solid transparent;
   cursor: pointer;
   transition: 0.4s ease-in-out;
 }
 
-.project-box:hover {
+.project-card:hover {
   color: black;
   border: 5px solid white;
   transform: scale(1.03);
 }
 
-.project-box .project-info {
+.project-card .project-info {
   display: flex;
   flex-direction: column;
-  text-align: left;
-  justify-content: left;
-  align-items: baseline;
+  align-items: center;
   padding: 3rem 5rem;
 }
 
@@ -365,7 +364,7 @@ span {
     font-size: 55%;
   }
 
-  .project-box:nth-child(1) {
+  .project-card:nth-child(1) {
     height: 400px;
   }
 
@@ -457,7 +456,7 @@ span {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .project-box:nth-child(1) {
+  .project-card:nth-child(1) {
     height: 400px;
   }
 }
