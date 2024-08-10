@@ -262,35 +262,35 @@ span {
   transform: scale(1.03);
 }
 
-.project-box {
+.project-card {
   background: white;
-  height: 300px;
+  height: 600px;
+  max-width: 500px;
   border-radius: 3rem;
   border: 5px solid transparent;
   cursor: pointer;
+  align-items: center;
   transition: 0.4s ease-in-out;
 }
 
-.project-box:hover {
+.project-card:hover {
   color: black;
   border: 5px solid white;
   transform: scale(1.03);
 }
 
-.project-box .project-info {
+.project-card .project-info {
   display: flex;
   flex-direction: column;
-  text-align: left;
-  justify-content: left;
-  align-items: baseline;
   padding: 3rem 5rem;
+} 
+
+.project-info img {
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
-.project-info h4 {
-  font-size: 3rem;
-  font-weight: 800;
-  line-height: 2;
-}
 
 .project-info p {
   font-size: 1.6rem;
@@ -298,6 +298,14 @@ span {
   max-height: 100px;
   line-height: 1.7;
   margin: auto;
+}
+
+.project-length {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 1.6rem;
+  padding-bottom: 20px
 }
 
 .contact {
@@ -354,7 +362,6 @@ span {
 }
 
 .footer .copyright {
-
   text-align: center;
   font-size: 16px;
   color: black;
@@ -363,15 +370,6 @@ span {
 @media (max-width: 1285px) {
   html {
     font-size: 55%;
-  }
-
-  .project-box:nth-child(1) {
-    height: 400px;
-  }
-
-  .projects-container {
-    padding-bottom: 7rem;
-    margin: 0 5rem;
   }
 }
 
@@ -384,16 +382,8 @@ span {
     padding: 10rem 3% 2rem;
   }
 
-  .projects {
-    padding-bottom: 7rem;
-  }
-
   .footer {
     padding: 2rem 3%;
-  }
-
-  .projects-container img {
-    height: 400px;
   }
 }
 
@@ -447,17 +437,5 @@ span {
 
   .home-img img {
     width: 56vw;
-  }
-
-  .projects h2 {
-    margin-bottom: 3rem;
-  }
-
-  .projects-container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .project-box:nth-child(1) {
-    height: 400px;
   }
 }
