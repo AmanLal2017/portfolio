@@ -283,12 +283,12 @@ span {
   flex-direction: column;
   align-items: center;
   padding: 3rem 5rem;
-}
+} 
 
-.project-info h4 {
-  font-size: 3rem;
-  font-weight: 800;
-  line-height: 2;
+.project-info img {
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .project-info p {
