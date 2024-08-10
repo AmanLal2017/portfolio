@@ -113,7 +113,7 @@ span {
 
 .home-content h3 {
   display: flex;
-  gap: 1rem;
+  gap: 6px;
   margin-bottom: 2rem;
   margin-top: 2rem;
   font-size: 3rem;
@@ -134,7 +134,7 @@ span {
   max-width: 1000px;
 }
 
-.home-content i {
+.icon {
   font-size: 2rem;
 }
 
