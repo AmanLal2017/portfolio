@@ -112,9 +112,12 @@ span {
 }
 
 .home-content h3 {
+  display: flex;
+  gap: 1rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  font-size: 3.5rem;
+  font-size: 3rem;
+  align-items: baseline;
 }
 
 .home-content h1 {
@@ -129,6 +132,10 @@ span {
   font-weight: 500;
   line-height: 1.8;
   max-width: 1000px;
+}
+
+.home-content i {
+  font-size: 2rem;
 }
 
 .home-img {
