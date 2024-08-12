@@ -28,6 +28,9 @@ body {
   color: var(--text);
 }
 
+.element { pointer-events: none; }
+.element > a { text-decoration:none; color:inherit; }
+
 .header { 
   position: fixed;
   top: 0;
