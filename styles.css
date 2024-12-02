@@ -296,6 +296,10 @@ body {
     margin-bottom: 1rem;
 }
 
+.cover {
+    object-fit: cover;
+}
+
 .project-title {
     font-size: 1.5rem;
     font-weight: bold;
