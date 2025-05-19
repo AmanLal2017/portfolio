@@ -528,15 +528,16 @@ button.loading::after {
     padding-bottom: 1rem;
 }
 
-.extra-line {
-    padding: 12px;
-}
-
 @keyframes spin {
     to { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
-/* Responsive adjustments */
+@media (max-width: 1500px) {
+    .extra-line {
+        padding: 12px;
+    }
+}
+
 @media (max-width: 768px) {
     .form-group {
         flex-direction: column;
