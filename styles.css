@@ -528,13 +528,17 @@ button.loading::after {
     padding-bottom: 1rem;
 }
 
+.extra-line {
+    padding: 12px;
+}
+
 @keyframes spin {
     to { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
 @media (max-width: 1500px) {
     .extra-line {
-        padding: 12px;
+        padding: 0px;
     }
 }
 
